@@ -51,6 +51,7 @@ livereload: true
 sass:
   style: compressed
   source_dir: _sass
+  sass_dir: ./_scss
 
 #google_analytics: UA-code-here
 
