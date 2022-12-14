@@ -1,15 +1,12 @@
-- name: The Team
-  link: /team/
-- name: Systems
-  link: /#
-  dropdown:
-    - name: Electrical
-      link: /electrical/
-    - name: Firmware
-      link: /firmware/
-    - name: Software
-      link: /software/
-    - name: Mechanical
-      link: /mechanical/
-- name: Timeline
-  link: /sprints/
+# main links
+main:
+  - title: "Quick-Start Guide"
+    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  # - title: "About"
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
+  # - title: "Sample Posts"
+  #   url: /year-archive/
+  # - title: "Sample Collections"
+  #   url: /collection-archive/
+  # - title: "Sitemap"
+  #   url: /sitemap/
