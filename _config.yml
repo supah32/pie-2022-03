@@ -14,8 +14,7 @@ gh_sponsor: chrisrhymes
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
-theme: chrisrhymes/bulma-clean-theme
-# remote_theme: chrisrhymes/bulma-clean-theme
+remote_theme: chrisrhymes/bulma-clean-theme
 
 
 paginate: 5
