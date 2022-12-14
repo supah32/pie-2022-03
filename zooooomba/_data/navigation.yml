@@ -3,11 +3,11 @@
 - name: Systems
   link: /#
   dropdown:
-    - name: Mechanical
-      link: /mechanical/
     - name: Electrical
       link: /electrical/
     - name: Firmware
       link: /firmware/
     - name: Software
       link: /software/
+    - name: Mechanical
+      link: /mechanical/
