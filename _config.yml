@@ -35,6 +35,7 @@ plugins:
   - jekyll-seo-tag
   - kramdown-parser-gfm
   - jekyll-redirect-from
+  - github-pages
 
 exclude: 
   - Gemfile
