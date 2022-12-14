@@ -11,3 +11,5 @@
       link: /software/
     - name: Mechanical
       link: /mechanical/
+- name: Timeline
+  link: /sprints/
