@@ -1,19 +1,13 @@
-- name: Docs
-  link: /docs/
-- name: Example Pages
+- name: The Team
+  link: /team/
+- name: Systems
   link: /#
   dropdown:
-    - name: Landing Page With Callouts
-      link: /landing/
-    - name: Sponsors Page
-      link: /sponsors/
-    - name: Image Gallery
-      link: /gallery/
-    - name: Products
-      link: /products/
-    - name: Recipe Page
-      link: /example-recipe/
-    - name: Showcase
-      link: /showcase/
-- name: Blog
-  link: /blog/
+    - name: Mechanical
+      link: /mechanical/
+    - name: Electrical
+      link: /electrical/
+    - name: Firmware
+      link: /firmware/
+    - name: Software
+      link: /software/

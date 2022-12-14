@@ -1,6 +1,6 @@
 # Site Settings
 lang: en
-title: Bulma Clean Theme
+title: Zoomba
 tagline: Bulma Clean Theme
 email: your-email@domain.com
 description: >
@@ -14,6 +14,8 @@ gh_sponsor: chrisrhymes
 #theme_color: '#eeeeee'
 #fixed_navbar: top
 #direction: one of <ltr, rtl, auto>, default: ltr
+remote_theme: chrisrhymes/bulma-clean-theme
+
 
 paginate: 5
 paginate_path: "/blog/page:num"
