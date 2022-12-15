@@ -44,8 +44,8 @@ permalink: /team/
 		</div>
 	</div>
 
-	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-right: 4%; vertical-align: top;">
-		<img src="/assets/images/blank_profile_pic.png" alt="Ayush's profile picture" style="margin-left: 4%;
+	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-left: 4%; vertical-align: top;">
+		<img src="/assets/images/omar.png" alt="Omar's profile picture" style="margin-left: 4%;
 		border-radius: 50%;"/>
 
 		<h3 style="margin-bottom: 0;">Omar Salih</h3>
@@ -66,44 +66,37 @@ permalink: /team/
 
 
 <div>
-	<img src="/assets/images/blank_profile_pic.png" alt="Jo's profile picture" style="
-	display: inline-block;
-	width: 30%;
-	margin-left: 15%;
-	margin-right: 4%;
-	border-radius: 50%;"
-	/>
-	<img src="/assets/images/kd.png" alt="KD's profile picture" style="
-	display: inline-block;
-	width: 30%;
-	margin-right: 15%;
-	margin-left: 4%;
-	border-radius: 50%;"
-	/>
-</div>
+	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-right: 4%; margin-left: 10%; vertical-align: top;">
+		<img src="/assets/images/blank_profile_pic.png" alt="Jo's profile picture" style="margin-left: 4%;
+		border-radius: 50%;"/>
 
-
-<div>
-	<div style="display: inline-block; text-align: center; width: 33%; margin-left: 13%; margin-right: 3%;">
 		<h3 style="margin-bottom: 0;">Jo Fryling</h3>
 		<p style="margin-top: 0; margin-bottom: 10px; font-size: 20px; font-weight: bold;">Mechanical</p>
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Chassis design and mounting</p>
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Vacuum design and mounting</p>
-		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Wheel design and mounting</p>
-
-		<a href="mailto:jfryling@olin.edu" target="_blank"><img src="/assets/images/mail_icon.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+		<p style="margin-top: 0; font-size: 20px;">Wheel design and mounting</p>
+		<br>
+		
+		<div id="contact-buttons" style="text-decoration: none">
+			<a href="mailto:jfryling@olin.edu" target="_blank" style="text-decoration: none"> <img src="/assets/images/mail_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px"> </a>
+		</div>
 	</div>
-	<div style="display: inline-block; text-align: center; width: 33%; margin-left: 3%; margin-right: 13%;">
+
+
+	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-left: 10%; vertical-align: top;">
+		<img src="/assets/images/kd.png" alt="KD's profile picture" style="margin-left: 4%;
+		border-radius: 50%;"/>
+
 		<h3 style="margin-bottom: 0;">KD Vo</h3>
 		<p style="margin-top: 0; margin-bottom: 10px; font-size: 20px; font-weight: bold;">Mechanical</p>
-		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Chassis design and fabrication</p>
+		<p style="margin-top: 0; margin-bottom: 0px; font-size: 20px;">Chassis design and fabrication</p>
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Vacuum design/assembly</p>
-		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Wheel mount design/fabrication</p>
-
-		<a href="mailto:kvo@olin.edu" target="_blank"><img src="/assets/images/mail_icon.png" alt="HTML tutorial" style="width:42px;height:42px;"></a>
+		<p style="margin-top: 0; font-size: 20px;">Wheel mount design/fabrication</p>
+		
+		<div id="contact-buttons" style="text-decoration: none">
+			<a href="mailto:kvo@olin.edu" target="_blank" style="text-decoration: none"> <img src="/assets/images/mail_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px"> </a>
+			<a href="https://www.linkedin.com/in/katelyn-vo-b16b5321b/" target="_blank" style="text-decoration: none"> <img src="/assets/images/linkedin_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px;"> </a>
+		</div>
 	</div>
-
-	<br>
-
 </div>
 
