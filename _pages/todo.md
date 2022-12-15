@@ -3,7 +3,6 @@
 Electrical:
 * diagram of vacuum system
 * image of vacuum mounted on chassis
-* get circuit diagram from ayush
 
 
 Firmware:
@@ -14,6 +13,9 @@ Mechanical:
 * add cad renderings of everything
 
 
-Software:
-* add more images somehow
+Meet the team
+* add ayush's portfolio link (and anyone else's if they want)
 
+
+Sprints:
+* finish the technical challenges section

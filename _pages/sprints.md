@@ -90,3 +90,39 @@ Stepper motor controllers
 
 Due to these challenges, we switched back from stepper motors into using DC motors. 
 
+
+<br>
+<br>
+
+
+<div>
+	<div>
+		<img src="/assets/images/iso_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
+			width: 30%;"
+		/>
+		<div style="display: inline-block; width: 3%"></div>
+		<img src="/assets/images/iso_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
+			width: 30%;"
+		/>
+		<div style="display: inline-block; width: 3%"></div>
+		<img src="/assets/images/front_view.png" alt="Isometric view of the robot" style="display: inline-block;
+			width: 30%;"
+		/>
+	</div>
+
+	<div style="height: 5%"></div>
+
+	<div>
+		<img src="/assets/images/side_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
+			width: 30%;"
+		/>
+		<div style="display: inline-block; width: 3%"></div>
+		<img src="/assets/images/side_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
+			width: 30%;"
+		/>
+		<div style="display: inline-block; width: 3%"></div>
+		<div style="display: inline-block; width: 30%"></div>
+	</div>
+</div>
+
+
