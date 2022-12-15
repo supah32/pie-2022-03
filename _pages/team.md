@@ -1,12 +1,9 @@
 ---
-title: "Meet the Team"
+title: "Meet the Team!"
 permalink: /team/
 ---
 
-# Meet the Team
-
 <br>
-
 
 <div>
 	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-right: 4%; vertical-align: top;">

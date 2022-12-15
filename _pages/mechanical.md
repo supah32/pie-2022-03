@@ -1,9 +1,9 @@
 ---
 title: "Mechanical System/Design"
 permalink: /mechanical/
+sidebar:
+  nav: design
 ---
-
-# Mechanical System/Design
 
 The Zoomba includes custom made parts made in Olin College of Engineering’s own shop. Some of the parts were laser cut out with acrylic and MDF board, and other parts were 3D printed using PLA filament. The rest of the parts were already made, bought, or manipulated to fit our needs.
 

@@ -1,18 +1,47 @@
-# main links
 main:
-  - title: "Sprints"
+- title: "System"
+  sublinks:
+    - title: "Overall System"
+      url: /system/
+    - title: "Mechanical"
+      url: /mechanical/
+    - title: "Electrical"
+      url: /electrical/
+    - title: "Firmware"
+      url: /firmware/
+    - title: "Software"
+      url: /software/
+- title: "Sprints"
+  url: /sprints/
+- title: "Budget Breakdown"
+  url: /budget/
+- title: "Meet the Team"
+  url: /team/
+
+docs:
+  - title: Sprint Breakdown
     url: /sprints/
-  - title: "Systems"
-    sublinks:
-      - title: "Overall System"
-        url: /system/
-      - title: "Mechanical"
-        url: /mechanical/
-      - title: "Electrical"
-        url: /electrical/
-      - title: "Firmware"
-        url: /firmware/
-      - title: "Software"
-        url: /software/
-  - title: "Meet the Team"
-    url: /team/
+    children:
+    - title: Sprint 1
+      url: /sprints/#sprint-1-mvp
+    - title: Sprint 2
+      url: /sprints/#sprint-2
+    - title: Sprint 3
+      url: /sprints/#sprint-3
+  - title: Technical Challenges
+    url: /sprints/#technical-challenges
+
+design:
+  - title: System Design
+    url: /system/
+    children:
+    - title: Overall System
+      url: /system/
+    - title: Mechanical
+      url: /mechanical/
+    - title: Electrical
+      url: /electrical/
+    - title: Firmware
+      url: /firmware/
+    - title: Software
+      url: /software/

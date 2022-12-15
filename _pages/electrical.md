@@ -1,11 +1,9 @@
 ---
 title: "Electrical Design"
 permalink: /electrical/
+sidebar:
+  nav: design
 ---
-
-# Electrical System Design
-
-<br>
 
 The electrical circuit consisted of an Arduino (with motor shield), a Raspberry Pi, 4 DC motors, a battery, a RPLiDAR, and a fan for the vacuum. The wiring diagram is in the image below.
 

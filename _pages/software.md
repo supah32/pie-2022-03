@@ -1,13 +1,15 @@
 ---
 title: "Software Design"
 permalink: /software/
+sidebar:
+  nav: design
 ---
-
-<a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank" style="float: right; text-decoration: none; font-size: 20px; color: #000000; background-color: #cbcbcb; border: none; border-radius: 10px; padding: 10px; padding-right: 20px; padding-left: 20px;">
+<br>
+<a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank" style="float: right; text-decoration: none; font-size: 20px; color: #000000; background-color: #cbcbcb; border: none; border-radius: 10px; padding: 10px; padding-right: 270px; padding-left: 270px;">
     View on GitHub
 </a>
 
-<h1 style="display: inline-block; margin-right: auto;">Software Design</h1>
+<br>
 
 The final software architecture is split into two main behaviors: remote control and autonomous navigation. Each behavior is encapsulated into separate ROS Nodes, allowing for quick toggling between behaviors simply based on the Node being run on the necessary devices. This also allows flexibility for users to suit their individual needs on a case-by-case basis. Below, you will find a more detailed explanation of the two behaviors and the major software components involved in their implementation. The full code documentation can be found in <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/tree/main/final_demo/robot_vacuum" target="_blank">this repository</a>.
 
@@ -30,25 +32,25 @@ This section outlines the software components that are essential to both behavio
 
 Due to hardware limitations of the Raspberry Pi and computing limitations of the Arduino, we chose to integrate both controllers into our system. This meant that we needed to establish a reliable communication protocol between the two devices. We chose to implement serial due to its reliability and ease of setup as compared to the alternatives (I2C, SPI, and UART). To initialize the serial connection on the Raspberry Pi, we used pyserial through the following command:
 
-```
+```py
 ser = serial.Serial(ARDUINO_PORT, SERIAL_BAUD_RATE, timeout=1)
 ```
 
 Where `ARDUINO_PORT` is the path to the USB port that the Arduino is connect to, `SERIAL_BAUD_RATE` is the baud rate of the communication (9600 bits/sec), and timeout is the timeout of the connection. Then, to write to the established connection, we can simply call:
 
-```
+```py
 ser.write(self.input_keys_to_serial[msg.data])
 ```
 
 On the Arduino side, we initialize the serial connection with the following command:
 
-```
+```c
 Serial.begin(9600);
 ```
 
 Then, to receive messages on the Arduino, we run:
 
-```
+```c
 if (Serial.available() > 0) {
   String a = Serial.readString();
   currDriveMode = a.toInt();
@@ -62,7 +64,7 @@ Here, we first check if there is new data to receive. If there is, then we decod
 
 The Arduino sketch is also the same between the two different behaviors. First, the Arduino listens to the serial line for an inputted drive direction (expressed as an integer). For example, ‘1’ means to drive forward, so if ‘1’ is received on the serial line, the `driveNorth()` function is called. The function is as follows:
 
-```
+```c
 void driveNorth(){
   //drive straight
 
@@ -91,13 +93,13 @@ The Remote Control behavior is split into two main scripts: <a href="https://git
 
 The primary purpose of the laptop interface is to publish the current keyboard button that the user pressed. This is done by creating a ROS publisher:
 
-```
+```py
 self.publisher = self.create_publisher(String, "vel_dir", 10)
 ```
 
 This publisher publishes String objects under the topic `vel_dir` and stores the most recent 10 messages that it has sent. To receive the actual key press, we implemented a `get_key()` function:
 
-```
+```py
 def get_key(self):
   """
   This is a binding function that listens for keyboard input from
@@ -117,7 +119,7 @@ This function sets the listener as the user’s terminal and reads it for an inp
 
 The ROS Node on the Raspberry Pi serves two main purposes: subscribe to the laptop’s ROS message and send the corresponding drive direction to the Arduino. The first task is done by creating a subscriber in the node:
 
-```
+```py
 self.subscriber = self.create_subscription(
     String, "vel_dir", self.process_keyboard_input, 10
 )
@@ -135,7 +137,7 @@ The Obstacle Avoidance behavior is a standalone ROS Node that commands the robot
 
 In order to properly avoid obstacles we chose to implement a LiDAR to gain information about our environment. Our RPLIDAR provides a 360 degree co-planar scan centered about the LiDAR up to 15 meters in distance. Using this information, we wish to navigate the robot towards the direction of no obstacles to ensure that its motion isn’t disrupted by an obstacle. This is done by setting angle ranges for each of the 8 directions that the robot can move. Each angle range is analyzed for the number of close points (points within a certain distance threshold) and the total distance to all points within each range with the following code:
 
-```
+```py
 def process_lidar_scan(self):
     """
     After the LiDAR data is updated, it is processed to determine the number

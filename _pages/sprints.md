@@ -85,15 +85,20 @@ At this point, we built the vacuuming mechanism with a fan that did not have pow
 />
 
 
-## Technical Challenges:
-Stepper motor controllers
+## Technical Challenges (Stepper Motors)
 
-Due to these challenges, we switched back from stepper motors into using DC motors. 
+The biggest challenge we faced throughout the process of creating the final design was working with the stepper motors. In our original design, we used 6V Nema 8 stepper motors. Although we successfully got them working, we experienced a lot of issues with the motors overheating if they were powered for more than a few minutes (which melted the 3D-printed wheel adapters). Furthermore, the motors were so small that they buckled under the weight of all the chassis/electronics components.
+
+In Sprint 3, we attempted to remedy these issues by using <a href="https://www.amazon.com/Stepper-Motor-Bipolar-64oz-Printer/dp/B00PNEQI7W" target="_blank">12V Nema 17 stepper motors</a>. Since these ran on 12V instead of 6V, it prevented the overheating issue. However, when trying to use them, the entire motor system would stutter/freeze up. Because of this, debugging was difficult as we couldn't easily pinpoint what component had failed. We had to check all the wirings and the software each time this occurred, which was a huge time sink. We discovered that one of the (<a href="https://www.amazon.com/Qunqi-Controller-Module-Stepper-Arduino/dp/B014KMHSW6" target="_blank">L298N motor controllers</a>) completely stopped working.
+
+By this time, it was too late to purchase new controllers, so we decided to cut our losses and pivot to using DC motors we had lying around. We realized that the Raspberry Pi's GPIO pins were relatively unstable (likely another contributer to the motor stuttering issue), so we started controlling the motors with an Arduino. Because of this, we also replaced our motor controllers with <a href="https://www.adafruit.com/product/1438" target="_blank">Adafruit’s Arduino motor shield</a>, which could drive all 4 DC motors.
 
 
 <br>
 <br>
 
+
+## Gallery
 
 <div>
 	<div>
@@ -124,5 +129,3 @@ Due to these challenges, we switched back from stepper motors into using DC moto
 		<div style="display: inline-block; width: 30%"></div>
 	</div>
 </div>
-
-

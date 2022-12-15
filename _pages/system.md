@@ -1,10 +1,9 @@
 ---
-title: "Overall System"
+title: "System Design"
 permalink: /system/
+sidebar:
+  nav: design
 ---
-
-
-# System Design
 
 The robot can be driven in two different ways, each with its own accompanying system.
 

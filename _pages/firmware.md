@@ -1,16 +1,11 @@
 ---
 title: "Firmware Design"
 permalink: /firmware/
+sidebar:
+  nav: design
 ---
 
-<a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank" style="float: right; text-decoration: none; font-size: 20px; color: #000000; background-color: #cbcbcb; border: none; border-radius: 10px; padding: 10px; padding-right: 20px; padding-left: 20px;">
-	View on GitHub
-</a>
-
-<h1 style="display: inline-block; margin-right: auto;">Firmware Design</h1>
-
-
-The firmware consisted of the DC motor controls and the fan power. Because the robot utilized four mecanum wheels, there needed to be four motors. We interfaced between our Arduino and the DC motors with <a href="https://www.adafruit.com/product/1438" target="_blank">Adafruit’s motor shield</a>, which came with a free <a href="https://learn.adafruit.com/adafruit-motor-shield/library-install" target="_blank">motor control library for Arduino</a>. Using the library's commands, we wrote custom functions to change the speeds and directions of the four motors so the the robot could move in 8 directions (and also rotate). Motor speeds were set using the library's `setSpeed()` function, and then directions were determined using `run()`. As an example, here is a function to drive the robot left.
+The firmware consisted of the DC motor controls and the fan power. Because the robot utilized four mecanum wheels, there needed to be four motors. We interfaced between our Arduino and the DC motors with <a href="https://www.adafruit.com/product/1438" target="_blank">Adafruit’s motor shield</a>, which came with a free <a href="https://learn.adafruit.com/adafruit-motor-shield/library-install" target="_blank">motor control library for Arduino</a>. Using the library's commands, we wrote custom functions to change the speeds and directions of the four motors so the the robot could move in 8 directions (and also rotate). Motor speeds were set using the library's `setSpeed()` function, and then directions were determined using `run()`. As an example, here is a function to drive the robot left. View our Arduino code <a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank">here</a>.
 
 ```
 void driveWest(){

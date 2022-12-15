@@ -3,9 +3,6 @@ title: "Budget Breakdown"
 permalink: /budget/
 ---
 
-# Budget Breakdown
-
-<br>
 
 We were given $250 to spend on materials. Note that some of these materials were purchased but not utilized in the final chassis, such as everything related to stepper motors
 
