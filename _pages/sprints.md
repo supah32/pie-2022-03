@@ -39,5 +39,5 @@ Create keyboard controls for vehicle movement in 8 directions using Arduino
 **Purpose:** finish project
 
 
-### Technical challenges:
+### Technical Challenges:
 Stepper motor controllers
