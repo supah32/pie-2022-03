@@ -10,3 +10,6 @@ Firmware:
 * wiring diagrams
 * add more info on how the vacuum is controlled using pwm
 
+Mechanical:
+* add cad renderings of everything
+
