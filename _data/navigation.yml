@@ -2,7 +2,7 @@
 main:
   - title: "Sprints"
     url: /sprints/
-  - title: "System"
+  - title: "Systems"
     sublinks:
       - title: "Overall System"
         url: /system/

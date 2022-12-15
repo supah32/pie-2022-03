@@ -5,11 +5,14 @@ permalink: /electrical/
 
 # Electrical System Design
 
-<!-- A detailed description of electrical design (circuit diagrams are appropriate) and any necessary analysis -->
-
 <br>
 
-The electrical circuit consisted of an Arduino (with motor shield), a Raspberry Pi, 4 DC motors, a battery, a RPLiDAR, and a fan for the vacuum.
+The electrical circuit consisted of an Arduino (with motor shield), a Raspberry Pi, 4 DC motors, a battery, a RPLiDAR, and a fan for the vacuum. The wiring diagram is in the image below.
+
+<img src="/assets/images/hardware_diagram.png" alt="A hardware diagram showing connections between electrical components" style="
+	display: block;
+	"
+/>
 
 
 ### Raspberry Pi

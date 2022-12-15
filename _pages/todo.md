@@ -3,11 +3,11 @@
 Electrical:
 * diagram of vacuum system
 * image of vacuum mounted on chassis
-* more wiring diagrams
+* get circuit diagram from ayush
 
 
 Firmware:
-* wiring diagrams
+* add code
 * add more info on how the vacuum is controlled using pwm
 
 
@@ -20,4 +20,4 @@ Software:
 
 
 Meet the team:
-* add images for kd and ayush
+* add images for jo
