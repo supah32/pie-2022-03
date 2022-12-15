@@ -2,6 +2,8 @@
 main:
   - title: "Sprints"
     url: /sprints/
+  - title: "Mechanical"
+    url: /mechanical/
   - title: "Electrical"
     url: /electrical/
   - title: "Firmware"

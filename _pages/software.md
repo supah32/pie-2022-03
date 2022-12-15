@@ -3,6 +3,8 @@ title: "Software Design"
 permalink: /software/
 ---
 
+# Software Design
+
 The final software architecture is split into two main behaviors: remote control and autonomous navigation. Each behavior is encapsulated into separate ROS Nodes, allowing for quick toggling between behaviors simply based on the Node being run on the necessary devices. This also allows flexibility for users to suit their individual needs on a case-by-case basis. Below, you will find a more detailed explanation of the two behaviors and the major software components involved in their implementation. The full code documentation can be found in [this repository](https://github.com/ayushchakra/autonomous-robot-vacuum/tree/main/final_demo/robot_vacuum).
 
 
