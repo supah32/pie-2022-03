@@ -6,8 +6,8 @@
   @include clearfix;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1em;
-  padding-right: 1em;
+  padding-left: 10vw;
+  padding-right: 10vw;
   -webkit-animation: $intro-transition;
   animation: $intro-transition;
   max-width: 100%;
@@ -32,6 +32,9 @@ body {
 
 .initial-content,
 .search-content {
+  margin-top: 5vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
   flex: 1 0 auto;
 }
 
@@ -50,8 +53,8 @@ body {
   .page__inner-wrap {
     float: left;
     margin-top: 1em;
-    margin-left: 0;
-    margin-right: 0;
+    margin-left: 10vw;
+    margin-right: 10vw;
     width: 100%;
     clear: both;
 
@@ -60,8 +63,8 @@ body {
     .page__share {
       position: relative;
       float: left;
-      margin-left: 0;
-      margin-right: 0;
+      margin-left: 10vw;
+      margin-right: 10vw;
       width: 100%;
       clear: both;
     }
