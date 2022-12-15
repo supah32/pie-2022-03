@@ -200,8 +200,8 @@
       margin-left: 0;
     }
   }
-
-  img {
+  
+  img{
     -webkit-transition: none;
     transition: none;
   }
@@ -256,6 +256,32 @@
         -ms-transform: scaleX(1);
         transform: scaleX(1); // reveal
       }
+    }
+
+    .dropdown {
+      float: left;
+      width: auto;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: darken($background-color, 3%);
+      min-width: 160px;
+      box-shadow: $box-shadow;
+      z-index: 1;
+    }
+
+    .dropdown-content a {
+      padding: 4px 8px;
+    }
+
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+
+    .dropdown-content a:not(:last-child){
+      border-bottom: none; 
     }
   }
 

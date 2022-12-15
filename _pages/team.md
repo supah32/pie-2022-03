@@ -10,7 +10,7 @@ permalink: /team/
 
 <div>
 	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-right: 4%; vertical-align: top;">
-		<img src="/assets/images/blank_profile_pic.png" alt="Ayush's profile picture" style="margin-right: 4%;
+		<img src="/assets/images/ayush.png" alt="Ayush's profile picture" style="margin-right: 4%;
 		border-radius: 50%;"/>
 
 		<h3 style="margin-bottom: 0;">Ayush Chakraborty</h3>

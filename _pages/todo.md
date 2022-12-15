@@ -19,3 +19,5 @@ Software:
 * add more images somehow
 
 
+Meet the team:
+* add images for kd and ayush

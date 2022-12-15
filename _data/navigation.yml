@@ -2,82 +2,17 @@
 main:
   - title: "Sprints"
     url: /sprints/
-  - title: "Mechanical"
-    url: /mechanical/
-  - title: "Electrical"
-    url: /electrical/
-  - title: "Firmware"
-    url: /firmware/
-  - title: "Software"
-    url: /software/
+  - title: "System"
+    sublinks:
+      - title: "Overall System"
+        url: /system/
+      - title: "Mechanical"
+        url: /mechanical/
+      - title: "Electrical"
+        url: /electrical/
+      - title: "Firmware"
+        url: /firmware/
+      - title: "Software"
+        url: /software/
   - title: "Meet the Team"
     url: /team/
-
-# sidebar navigation list sample
-# sidebar:
-#   - title: "Sprint 1"
-#     url: /sprints/#sprint-1-MVP
-#   - title: "Sprint 2"
-#     url: /sprints/#sprint-2
-#   - title: "Sprint 3"
-#     url: /sprints/#sprint-3
-#   - title: "Technical Challenges"
-#     url: /sprints/#technical-challenges
-
-
-docs:
-  - title: Getting Started
-    children:
-      - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
-      - title: "Structure"
-        url: /docs/structure/
-      - title: "Installation"
-        url: /docs/installation/
-      - title: "Upgrading"
-        url: /docs/upgrading/
-  - title: Customization
-    children:
-      - title: "Configuration"
-        url: /docs/configuration/
-      - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
-      - title: "Navigation"
-        url: /docs/navigation/
-      - title: "UI Text"
-        url: /docs/ui-text/
-      - title: "Authors"
-        url: /docs/authors/
-      - title: "Layouts"
-        url: /docs/layouts/
-  - title: Content
-    children:
-      - title: "Working with Posts"
-        url: /docs/posts/
-      - title: "Working with Pages"
-        url: /docs/pages/
-      - title: "Working with Collections"
-        url: /docs/collections/
-      - title: "Helpers"
-        url: /docs/helpers/
-      - title: "Utility Classes"
-        url: /docs/utility-classes/
-  - title: Extras
-    children:
-      - title: "Stylesheets"
-        url: /docs/stylesheets/
-      - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
-
