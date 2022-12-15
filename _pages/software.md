@@ -5,32 +5,32 @@ permalink: /software/
 
 # Software Design
 
-The final software architecture is split into two main behaviors: remote control and autonomous navigation. Each behavior is encapsulated into separate ROS Nodes, allowing for quick toggling between behaviors simply based on the Node being run on the necessary devices. This also allows flexibility for users to suit their individual needs on a case-by-case basis. Below, you will find a more detailed explanation of the two behaviors and the major software components involved in their implementation. The full code documentation can be found in [this repository](https://github.com/ayushchakra/autonomous-robot-vacuum/tree/main/final_demo/robot_vacuum).
+The final software architecture is split into two main behaviors: remote control and autonomous navigation. Each behavior is encapsulated into separate ROS Nodes, allowing for quick toggling between behaviors simply based on the Node being run on the necessary devices. This also allows flexibility for users to suit their individual needs on a case-by-case basis. Below, you will find a more detailed explanation of the two behaviors and the major software components involved in their implementation. The full code documentation can be found in <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/tree/main/final_demo/robot_vacuum" target="_blank">this repository</a>.
 
 
 ### Software Dependencies
 
 Raspberry Pi:
-* [ROS2 Foxy](https://docs.ros.org/en/foxy/Installation.html) - Using ROS allowed us to very easily establish a network connection between different devices, quickly run multiple processes at once, and as a wrapper for our main programming logic to modularize code.
-* [pySerial](https://pyserial.readthedocs.io/en/latest/) - This library allowed us to quickly establish a serial connection between the raspberry pi and the arduino. 
-* [rplidar](https://github.com/SkoltechRobotics/rplidar) - This hardware abstraction library allows us to quickly interface with the RPLIDAR and decode its messages without having to worry about lower level issues that we would have encountered when trying to decode its serial input.
-* [tty](https://docs.python.org/3/library/tty.html), [sys](https://docs.python.org/3/library/sys.html), [select](https://docs.python.org/3/library/select.html), [termios](https://docs.python.org/3/library/termios.html) (Keyboard Input) - We also used several libraries in order to listen to a user’s keyboard input to their terminal in order to command the remote control operation. 
+* <a href="https://docs.ros.org/en/foxy/Installation.html" target="_blank">ROS2 Foxy</a> - Using ROS allowed us to very easily establish a network connection between different devices, quickly run multiple processes at once, and as a wrapper for our main programming logic to modularize code.
+* <a href="https://pyserial.readthedocs.io/en/latest/" target="_blank">pySerial</a> - This library allowed us to quickly establish a serial connection between the Raspberry Pi and the Arduino.
+* <a href="https://github.com/SkoltechRobotics/rplidar" target="_blank">rplidar</a> - This hardware abstraction library allows us to quickly interface with the RPLIDAR and decode its messages without having to worry about lower level issues that we would have encountered when trying to decode its serial input.
+* <a href="https://docs.python.org/3/library/tty.html" target="_blank">tty</a>, <a href="https://docs.python.org/3/library/sys.html" target="_blank">sys</a>, <a href="https://docs.python.org/3/library/select.html" target="_blank">select</a>, <a href="https://docs.python.org/3/library/termios.html" target="_blank">termios</a> (Keyboard Input) - We also used several libraries in order to listen to a user’s keyboard input to their terminal in order to command the remote control operation.
 
 Arduino:
-* [Adafruit Motor Shield V2 Library](https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library) - This hardware abstraction library allows us to simply input wheel directions and velocities in order to manage the individual wheel behaviors through DC motors.
+* <a href="https://github.com/adafruit/Adafruit_Motor_Shield_V2_Library" target="_blank">Adafruit Motor Shield V2 Library</a> - This hardware abstraction library allows us to simply input wheel directions and velocities in order to manage the individual wheel behaviors through DC motors.
 
 This section outlines the software components that are essential to both behaviors running as intended.
 
 
 ### Raspberry Pi to Arduino Communication
 
-Due to hardware limitations of the raspberry pi and computing limitations of the arduino, we chose to integrate two controllers into our system. This meant that we needed to establish a reliable communication protocol between the two devices. We chose to implement serial due to its reliability and ease of setup as compared to the alternatives (I2C, SPI, and UART). To initialize the serial connection on the raspberry pi, we used pyserial through the following command:
+Due to hardware limitations of the Raspberry Pi and computing limitations of the Arduino, we chose to integrate both controllers into our system. This meant that we needed to establish a reliable communication protocol between the two devices. We chose to implement serial due to its reliability and ease of setup as compared to the alternatives (I2C, SPI, and UART). To initialize the serial connection on the Raspberry Pi, we used pyserial through the following command:
 
 ```
 ser = serial.Serial(ARDUINO_PORT, SERIAL_BAUD_RATE, timeout=1)
 ```
 
-Where ARDUINO_PORT is the path to the USB port that the arduino is connect to, SERIAL_BAUD_RATE is the baud rate of the communication (9600 bits/sec), and timeout is the timeout of the connection. Then, to write to the established connection, we can simply call:
+Where `ARDUINO_PORT` is the path to the USB port that the Arduino is connect to, `SERIAL_BAUD_RATE` is the baud rate of the communication (9600 bits/sec), and timeout is the timeout of the connection. Then, to write to the established connection, we can simply call:
 
 ```
 ser.write(self.input_keys_to_serial[msg.data])
@@ -42,7 +42,7 @@ On the Arduino side, we initialize the serial connection with the following comm
 Serial.begin(9600);
 ```
 
-Then, to receive messages, we run:
+Then, to receive messages on the Arduino, we run:
 
 ```
 if (Serial.available() > 0) {
@@ -51,7 +51,7 @@ if (Serial.available() > 0) {
 }
 ```
 
-First, we check if there is new data to receive. If there is, then we decode it as a string and cast it as an integer since all the data we are sending is sent as ints encoded into strings. Thus, we are able to send and receive messages between the raspberry pi and the arduino.
+Here, we first check if there is new data to receive. If there is, then we decode it as a string and cast it as an integer, since all the data are sent as `int`s encoded into `string`s. Thus, we are able to send and receive messages between the Raspberry Pi and the Arduino.
 
 
 ### Arduino Interface
@@ -80,7 +80,7 @@ First, all the motors are set to the same speed using the `set_speed()` function
 
 ### Remote Control Operation:
 
-The Remote Control behavior is split into two main scripts: [rpi_interface.py](https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/rpi_interface.py) and [laptop_interface.py](https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/laptop_interface.py). Each of these files contain ROS Nodes that communicate with each other, allowing for the remote control behavior.
+The Remote Control behavior is split into two main scripts: <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/rpi_interface.py" target="_blank">rpi_interface.py</a> and <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/laptop_interface.py" target="_blank">laptop_interface.py</a>. Each of these files contain ROS Nodes that communicate with each other, allowing for the remote control behavior.
 
 
 ### Laptop Interface
@@ -181,6 +181,16 @@ def process_lidar_scan(self):
 ```
 
 Using the two populated dictionaries, if there is a close point in all possible directions, the robot is instructed to spin in place since there is no safe distance to go. If there is a safe location to go, the direction with the least obstacles is chosen and the robot is instructed over serial to drive in that direction.
+
+An example LiDAR scan is shown below, visualized with the <a href="https://matplotlib.org" target="_blank">matplotlib</a> library. The blue points trace out the detected obstacles. The black arrow represents the direction the robot will travel - the direction with the least amount of obstacles.
+
+<img src="/assets/images/lidar_scan.png" alt="A plot of an example LiDAR scan." style="
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40%;
+    "
+/>
 
 
 
