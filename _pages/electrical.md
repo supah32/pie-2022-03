@@ -12,9 +12,6 @@ permalink: /electrical/
 The electrical circuit consisted of an Arduino (with motor shield), a Raspberry Pi, 4 DC motors, a battery, a RPLiDAR, and a fan for the vacuum.
 
 
-<br>
-
-
 ### Raspberry Pi
 
 <img src="/assets/images/rasp_pi.png" alt="Image of the Raspberry Pi 4b" style="
@@ -77,22 +74,22 @@ The robot utilized 4 DC motors, which we acquired through the '<a href="https://
 
 We chose to use a <a href="https://www.amazon.com/dp/B06XKNM73N?psc=1&ref=ppx_yo2ov_dt_b_product_details" target="_blank">14.8V, 3Ah battery</a>. All components were in parallel, so to choose the voltage specifications we just needed to figure out what the highest required voltage was (12V, for the motor shield). We also needed a current specification, since the total current draw of the circuit was the sum of all the parallel components.
 
-<img src="/assets/images/battery.png" alt="Image of the battery" style="display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;"
+Beyond the motor shield, the Raspberry Pi was directly powered through the battery. The Raspberry Pi requires 5V, so we implemented a <a href="https://www.amazon.com/dp/B07Y2V1F8V?psc=1&ref=ppx_yo2ov_dt_b_product_details" target="_blank">buck converter</a> that allowed us to step down from the battery’s 12V to 5V.
+
+
+<img src="/assets/images/battery.png" alt="Image of the battery" style="display: inline-block;
+	width: 50%;
+	margin-right: 4%;
+	margin-left: 4%;
+	"
 />
-
-
-<img src="/assets/images/buck_converter.png" alt="Image of the buck converter" style="
+<img src="/assets/images/buck_converter.png" alt="Image of the buck converter" style="display: inline-block;
 	width: 30%;
-	float: right;
+	margin-right: 4%;
+	margin-left: 4%;
 	"
 />
 
-<div style="display: inline-block; width: 65%;">
-Beyond the motor shield, the Raspberry Pi was directly powered through the battery. The Raspberry Pi requires 5V, so we implemented a <a href="https://www.amazon.com/dp/B07Y2V1F8V?psc=1&ref=ppx_yo2ov_dt_b_product_details" target="_blank">buck converter</a> that allowed us to step down from the battery’s 12V to 5V.
-</div>
 
 All other components were powered through either the Raspberry Pi or the motor shield. For example, the 4 DC motors received power through the motor shield, not directly through the battery.
 
@@ -111,7 +108,7 @@ All other components were powered through either the Raspberry Pi or the motor s
 
 <div style="display: inline-block;
 	width: 65%;">
-	The scanner we used was the [RPLIDAR A1M8](https://www.slamtec.com/en/Lidar/A1). We powered the LiDAR with a USB, which allowed us to provide a stable 5V power supply and communicate with the device over serial.
+	The scanner we used was the <a href="https://www.slamtec.com/en/Lidar/A1" target="_blank">RPLIDAR A1M8</a>. We powered the LiDAR with a USB, which allowed us to provide a stable 5V power supply and communicate with the device over serial.
 </div>
 
 
@@ -120,11 +117,11 @@ All other components were powered through either the Raspberry Pi or the motor s
 
 ### Vacuum fan
 
-One of the main features of the autonomous robot was that it could vacuum. For this, we constructed our own vacuuming system using a [powerful PC cooling fan](https://www.amazon.com/dp/B07SGWNV5J?ref=ppx_yo2ov_dt_b_product_details&th=1), a box for debris storage, a dust filter, and PVC pipes.
+One of the main features of the autonomous robot was that it could vacuum. For this, we constructed our own vacuuming system using a <a href="https://www.amazon.com/dp/B07SGWNV5J?ref=ppx_yo2ov_dt_b_product_details&th=1" target="_blank">powerful PC cooling fan</a>, a box for debris storage, a dust filter, and PVC pipes. This design was inspired by existing homemade vacuum designs such as <a href="https://www.youtube.com/watch?v=2bAAlp3Dyvc" target="_blank">this one</a>.
 
 [diagram of vacuum system here]
 
-This vacuum system was mounted so that the PVC tube (through which debris would be sucked through) was directly in the center of the robot, and the box was attached upright in the back of the chassis. Because the box was so tall, the LiDAR had to be mounted on standoffs so that its perception would not be obstructed.
+The vacuum system was mounted so that the PVC tube (through which debris on the ground would be sucked through) was directly in the center of the robot, and the debris storage box was attached upright on the back of the chassis. Because the box was so tall, the LiDAR had to be mounted on standoffs so that its perception would not be obstructed.
 
 [image of vacuum on chassis here]
 
