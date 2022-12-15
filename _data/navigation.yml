@@ -12,3 +12,14 @@ main:
     url: /software/
   - title: "Meet the Team"
     url: /team/
+
+# sidebar navigation list sample
+sidebar:
+  - title: "Sprint 1"
+    url: /sprints/#sprint-1-MVP
+  - title: "Sprint 2"
+    url: /sprints/#sprint-2
+  - title: "Sprint 3"
+    url: /sprints/#sprint-3
+  - title: "Technical Challenges"
+    url: /sprints/#technical-challenges
