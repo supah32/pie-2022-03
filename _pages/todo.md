@@ -7,8 +7,7 @@ Electrical:
 
 
 Firmware:
-* add code
-* add more info on how the vacuum is controlled using pwm
+* add more info on how the vacuum is controlled using pwm (perhaps code as well)
 
 
 Mechanical:
@@ -18,6 +17,3 @@ Mechanical:
 Software:
 * add more images somehow
 
-
-Meet the team:
-* add images for jo

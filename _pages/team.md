@@ -67,7 +67,7 @@ permalink: /team/
 
 <div>
 	<div id="profile-block" style="display: inline-block; text-align: center; width: 30%; margin-right: 4%; margin-left: 10%; vertical-align: top;">
-		<img src="/assets/images/blank_profile_pic.png" alt="Jo's profile picture" style="margin-left: 4%;
+		<img src="/assets/images/jo.png" alt="Jo's profile picture" style="margin-left: 4%;
 		border-radius: 50%;"/>
 
 		<h3 style="margin-bottom: 0;">Jo Fryling</h3>
