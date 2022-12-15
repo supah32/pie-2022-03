@@ -8,19 +8,19 @@ permalink: /team/
 <br>
 
 <div>
-	<img src="/assets/images/kd.png" alt="KD profile picture" style="
+	<img src="/assets/images/blank_profile_pic.png" alt="Ayush's profile picture" style="
 	display: inline-block;
 	width: 30%;
 	margin-right: 4%;
 	border-radius: 50%;
 	"
 	/>
-	<img src="/assets/images/kd.png" alt="KD profile picture" style="
+	<img src="/assets/images/lily.png" alt="Lily's profile picture" style="
 	display: inline-block;
 	width: 30%;
 	border-radius: 50%;"
 	/>
-	<img src="/assets/images/omar.png" alt="Omar profile picture" style="
+	<img src="/assets/images/omar.png" alt="Omar's profile picture" style="
 	display: inline-block;
 	width: 30%;
 	margin-left: 4%;
@@ -54,14 +54,14 @@ permalink: /team/
 
 
 <div>
-	<img src="/assets/images/kd.png" alt="KD profile picture" style="
+	<img src="/assets/images/blank_profile_pic.png" alt="Jo's profile picture" style="
 	display: inline-block;
 	width: 30%;
 	margin-left: 15%;
 	margin-right: 4%;
 	border-radius: 50%;"
 	/>
-	<img src="/assets/images/kd.png" alt="KD profile picture" style="
+	<img src="/assets/images/kd.png" alt="KD's profile picture" style="
 	display: inline-block;
 	width: 30%;
 	margin-right: 15%;
