@@ -12,7 +12,7 @@ The Zoomba is a speedy, efficiently-navigating cleaning robot. Unlike most clean
 
 ## Final System
 
-<img src="/assets/images/iso_render.jpg" alt="CAD assembly of the entire chassis and all components" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/iso_render.jpg" alt="CAD assembly of the entire chassis and all components" style="display: block;
 	margin-left: auto;
 	margin-right: auto;"
 />

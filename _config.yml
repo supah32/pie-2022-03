@@ -3,7 +3,7 @@ url: https://supah32.github.io/pie-2022-03/
 # logo: "/assets/images/kd.png"
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 repository: supah32/pie-2022-03
-base_url: "/pie-2022-03/"
+base_url: "/pie-2022-03"
 
 markdown: "kramdown"
 
