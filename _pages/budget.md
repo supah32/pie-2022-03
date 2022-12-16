@@ -39,12 +39,3 @@ In addition to the purchased materials, we could use whatever materials we acqui
 | ---- 										| ------ |
 | Total 														| $261.38 |
 
-
-mdf board
-velcro
-pvc pipes
-tackle box
-
-
-
-
