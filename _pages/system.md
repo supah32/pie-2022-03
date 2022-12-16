@@ -11,9 +11,6 @@ To navigate autonomously, the robot uses obstacle detection via the LiDAR to det
 
 <img src="{{ site.baseurl }}/assets/images/power_dist.png" alt="Flow diagram of autonomous driving system" style="
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
   "
 />
 
@@ -21,9 +18,6 @@ A second system is TeleOp-based: a user can provide keyboard inputs on a laptop 
 
 <img src="{{ site.baseurl }}/assets/images/teleop_diagram.png" alt="Flow diagram of tele-op controls" style="
   display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 70%;
   "
 />
 
