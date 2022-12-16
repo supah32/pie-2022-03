@@ -30,5 +30,4 @@ The four wheels needed to turn in specific and independent directions in order f
 
 <br>
 
-Other than the DC motors, the vacuum fan was also controlled by the Arduino using PWM. Because we just wanted the fan to run continuously without changing speed or direction, we just had to repeatedly send the same signal to the fan.
-
+Other than the DC motors, the vacuum fan was also controlled by the Arduino using a 100% PWM duty cycle. Because we just wanted the fan to run continuously without changing speed or direction, we just had to repeatedly send the same signal to the fan.

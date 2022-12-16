@@ -86,7 +86,7 @@ First, all the motors are set to the same speed using the `set_speed()` function
 
 ### Remote Control Operation
 
-The Remote Control behavior is split into two main scripts: <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/rpi_interface.py" target="_blank">rpi_interface.py</a> and <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/laptop_interface.py" target="_blank">laptop_interface.py</a>. Each of these files contain ROS Nodes that communicate with each other, allowing for the remote control behavior.
+The Remote Control behavior is split into two main scripts: <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/rpi_interface.py" target="_blank">rpi_interface.py</a> and <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/laptop_interface.py" target="_blank">laptop_interface.py</a>. Each of these files contain ROS Nodes that communicate with each other, allowing for the remote control behavior. To learn more about how the Arduino interfaces with our firmware, go to the [Firmware Design](firmware.md) section of this website.
 
 
 ### Laptop Interface
