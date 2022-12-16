@@ -1,85 +1,37 @@
-# Site Settings
-lang: en
 title: Zoomba
-tagline: Bulma Clean Theme
-email: your-email@domain.com
-description: >
-  The demo site for Bulma Clean Theme, made for Jekyll and GitHub pages websites
-baseurl: "/bulma-clean-theme"
-url: "https://www.csrhymes.com"
-permalink: pretty
-#favicon: /path/to/favicon.png
-gh_sponsor: chrisrhymes
-#hide_share_buttons: true
-#theme_color: '#eeeeee'
-#fixed_navbar: top
-#direction: one of <ltr, rtl, auto>, default: ltr
-remote_theme: chrisrhymes/bulma-clean-theme
+url: https://supah32.github.io/pie-2022-03/
+# logo: "/assets/images/kd.png"
+remote_theme: "mmistakes/minimal-mistakes@4.24.0"
+repository: supah32/pie-2022-03
+base_url: "/pie-2022-03/zooooomba/"
 
-
-paginate: 5
-paginate_path: "/blog/page:num"
-
-# Disqus Comments
-disqus:
-  # Leave shortname blank to disable comments site-wide.
-  # Disable comments for any post by adding `comments: false` to that post's YAML Front Matter.
-  # shortname: my_disqus_shortname
-  shortname: csrhymes
-
+markdown: "kramdown"
 
 plugins:
-  - jekyll-sitemap
-  - jekyll-paginate
-  - jekyll-feed
-  - jekyll-seo-tag
-  - kramdown-parser-gfm
-  - jekyll-redirect-from
+ - jekyll-feed
+ - jekyll-include-cache
+ - jekyll-target-blank
 
-exclude: 
-  - Gemfile
-  - clean-theme.gemspec
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
+# Disables RSS feed icon
+atom_feed:
+  hide: true
 
-livereload: true
+header:
+  show_overlay_excerpt: false
 
-sass:
-  style: compressed
-  source_dir: _sass
-  sass_dir: ./_scss
-
-#google_analytics: UA-code-here
+footer:
+  links:
+    - label: "Project Repo"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/ayushchakra/autonomous-robot-vacuum"
+    - label: "Website Repo"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/supah32/pie-2022-03/tree/master"
 
 defaults:
-  -
-    scope:
-      path: ""
-      type: "pages"
-    values:
-      show_sidebar: true
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      author: "C.S. Rhymes"
-      layout: post
-      image: https://via.placeholder.com/1200x800
-      show_sidebar: true
+  - values:
+      layout: single
 
-markdown: kramdown
-highlighter: rouge
-
-footer_menu: example_footer_menu
-
-collections:
-  products: 
-    output: true
-    layout: product
-    image: https://via.placeholder.com/800x600
-    show_sidebar: false
+include:
+  - _pages
+#   - _data
