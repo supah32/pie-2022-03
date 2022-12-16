@@ -5,12 +5,13 @@ sidebar:
   nav: design
 ---
 <br>
-<a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank" style="float: right; text-decoration: none; font-size: 20px; color: #000000; background-color: #cbcbcb; border: none; border-radius: 10px; padding: 10px; padding-right: 270px; padding-left: 270px;">
+<a href="https://github.com/ayushchakra/autonomous-robot-vacuum" target="_blank" style="float: left; text-decoration: none; font-size: 20px; color: #000000; background-color: #cbcbcb; border: none; border-radius: 10px; padding: 10px; padding-right: 13vw; padding-left: 13vw;">
     View on GitHub
 </a>
 
 <br>
 
+Removing the 270px to test.
 The final software architecture is split into two main behaviors: remote control and autonomous navigation. Each behavior is encapsulated into separate ROS Nodes, allowing for quick toggling between behaviors simply based on the Node being run on the necessary devices. This also allows flexibility for users to suit their individual needs on a case-by-case basis. Below, you will find a more detailed explanation of the two behaviors and the major software components involved in their implementation. The full code documentation can be found in <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/tree/main/final_demo/robot_vacuum" target="_blank">this repository</a>.
 
 
@@ -84,7 +85,7 @@ void driveNorth(){
 First, all the motors are set to the same speed using the `set_speed()` function and the direction is set to `FORWARD` using the `run()` function. The wheel speeds and directions vary based on desired drive direction. This process is continuously done to dynamically update the robot’s drive direction as the Raspberry Pi continuously determines optimal driving directions.
 
 
-### Remote Control Operation:
+### Remote Control Operation
 
 The Remote Control behavior is split into two main scripts: <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/rpi_interface.py" target="_blank">rpi_interface.py</a> and <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/laptop_interface.py" target="_blank">laptop_interface.py</a>. Each of these files contain ROS Nodes that communicate with each other, allowing for the remote control behavior.
 

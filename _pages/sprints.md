@@ -65,7 +65,7 @@ We would also like to note, this is where we forgot about the orientation of the
 * Figure out how to improve torque/ability to drive heavy chassis
 * Decide upon a vacuuming method, build it
 
-**Purpose:** finish project
+**Purpose:** Complete (mechanical/electrical/software) system integration.
 
 <img src="{{ site.baseurl }}/assets/images/fan.png" alt="Image of the fan used to vacuum" style="display: block;
 	margin-left: auto;

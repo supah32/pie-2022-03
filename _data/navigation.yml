@@ -30,18 +30,61 @@ docs:
       url: /sprints/#sprint-3
   - title: Technical Challenges
     url: /sprints/#technical-challenges
+  - title: Gallery
+    url: /sprints/#gallery
 
 design:
-  - title: System Design
+  # - title: System Design
+  #   url: /system/
+    
+  - title: Overall System
     url: /system/
     children:
-    - title: Overall System
-      url: /system/
-    - title: Mechanical
-      url: /mechanical/
-    - title: Electrical
-      url: /electrical/
-    - title: Firmware
-      url: /firmware/
-    - title: Software
-      url: /software/
+    
+  - title: Mechanical
+    url: /mechanical/
+    children:
+    - title: Chassis
+      url: /mechanical/#chassis
+    - title: Mecanum Wheels
+      url: /mechanical/#mecanum-wheels
+    - title: Vacuum
+      url: /mechanical/#vacuum
+  - title: Electrical
+    url: /electrical/
+    children:
+    - title: Raspberry Pi
+      url: /electrical/#raspberry-pi
+    - title: Arduino
+      url: /electrical/#arduino
+    - title: DC Motors & Shield
+      url: /electrical/#dc-motors-and-shield
+    - title: Battery + Buck Converter
+      url: /electrical/#battery--buck-converter
+    - title: LiDAR Scanner
+      url: /electrical/#lidar-scanner
+    - title: Vacuum Fan
+      url: /electrical/#vacuum-fan
+  - title: Firmware
+    url: /firmware/
+  - title: Software
+    url: /software/
+    children:
+    - title: Software Dependencies
+      url: /software/#software-dependencies
+    - title: RPi to Arduino Comm
+      url: /software/#raspberry-pi-to-arduino-communication
+    - title: Arduino Interface
+      url: /software/#arduino-interface
+    - title: Remote Control Operation
+      url: /software/#remote-control-operation
+    - title: Laptop Interface
+      url: /software/#laptop-interface
+    - title: Raspberry Pi Interface
+      url: /software/#raspberry-pi-interface
+    - title: Obstacle Avoidance
+      url: /software/#obstacle-avoidance
+    - title: LiDAR Analysis
+      url: /software/#lidar-analysis
+    - title: Limitations
+      url: /software/limitations

@@ -105,7 +105,7 @@ All other components were powered through either the Raspberry Pi or the motor s
 	"
 />
 
-### LiDAR scanner
+### LiDAR Scanner
 
 <div style="display: inline-block;
 	width: 65%;">
@@ -116,7 +116,7 @@ All other components were powered through either the Raspberry Pi or the motor s
 <br>
 
 
-### Vacuum fan
+### Vacuum Fan
 
 One of the main features of the autonomous robot was that it could vacuum. For this, we constructed our own vacuuming system using a <a href="https://www.amazon.com/dp/B07SGWNV5J?ref=ppx_yo2ov_dt_b_product_details&th=1" target="_blank">powerful PC cooling fan</a>, a box for debris storage, a dust filter, and PVC pipes. This design was inspired by existing homemade vacuum designs such as <a href="https://www.youtube.com/watch?v=2bAAlp3Dyvc" target="_blank">this one</a>.
 

@@ -10,6 +10,7 @@ markdown: "kramdown"
 plugins:
  - jekyll-feed
  - jekyll-include-cache
+ - jekyll-target-blank
 
 # Disables RSS feed icon
 atom_feed:
@@ -20,18 +21,12 @@ header:
 
 footer:
   links:
-    - label: "Project"
+    - label: "Project Repo"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/olincollege/baba-chess/"
-    - label: "Omar"
+      url: "https://github.com/ayushchakra/autonomous-robot-vacuum"
+    - label: "Website Repo"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/supah32/"
-    - label: "Drew"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/drewnotdrew/"
-    - label: "Arturo"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/ArturoJoya/"
+      url: "https://github.com/supah32/pie-2022-03/tree/master"
 
 defaults:
   - values:
