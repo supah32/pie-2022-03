@@ -19,7 +19,7 @@ We were given 6 weeks to iterate and complete the final design, which we divided
 
 **Purpose:** Test movement and physics of mecanum wheels.
 
-<img src="/assets/images/sprint_1_car.jpg" alt="Image of assembled MVP car" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/sprint_1_car.jpg" alt="Image of assembled MVP car" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;"
@@ -27,7 +27,7 @@ We were given 6 weeks to iterate and complete the final design, which we divided
 
 During this time, we also ideated on the integration of components. This was more crucial to the development of the vacuum mechanism and how it would integrate with other important pieces like the LiDAR.
 
-<img src="/assets/images/chassis_diagram.png" alt="Hand-drawn diagram of the final chassis plan" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/chassis_diagram.png" alt="Hand-drawn diagram of the final chassis plan" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;"
@@ -46,7 +46,7 @@ During this time, we also ideated on the integration of components. This was mor
 
 **Purpose:** Get LiDAR working on its own, replace MVP components with more advanced options.
 
-<img src="/assets/images/sprint_2_car.png" alt="Image of the assembled robot for the sprint 2 demo" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/sprint_2_car.png" alt="Image of the assembled robot for the sprint 2 demo" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;"
@@ -70,7 +70,7 @@ We would also like to note, this is where we forgot about the orientation of the
 
 **Purpose:** finish project
 
-<img src="/assets/images/fan.png" alt="Image of the fan used to vacuum" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/fan.png" alt="Image of the fan used to vacuum" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 35%;"
@@ -78,7 +78,7 @@ We would also like to note, this is where we forgot about the orientation of the
 
 At this point, we built the vacuuming mechanism with a fan that did not have powerful enough airflow to uptake some items. With simple testing, however, we found the mechanism to work and would work more efficiently with a more powerful fan attached. 
 
-<img src="/assets/images/final_chassis.jpg" alt="Ayush and a hastily-assembled version of the final vehicle design" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/final_chassis.jpg" alt="Ayush and a hastily-assembled version of the final vehicle design" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;"
@@ -102,15 +102,15 @@ By this time, it was too late to purchase new controllers, so we decided to cut 
 
 <div>
 	<div>
-		<img src="/assets/images/iso_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
+		<img src="{{ site.baseurl }}/assets/images/iso_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
 			width: 30%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
-		<img src="/assets/images/iso_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
+		<img src="{{ site.baseurl }}/assets/images/iso_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
 			width: 30%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
-		<img src="/assets/images/front_view.png" alt="Isometric view of the robot" style="display: inline-block;
+		<img src="{{ site.baseurl }}/assets/images/front_view.png" alt="Isometric view of the robot" style="display: inline-block;
 			width: 30%;"
 		/>
 	</div>
@@ -118,11 +118,11 @@ By this time, it was too late to purchase new controllers, so we decided to cut 
 	<div style="height: 5%"></div>
 
 	<div>
-		<img src="/assets/images/side_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
+		<img src="{{ site.baseurl }}/assets/images/side_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
 			width: 30%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
-		<img src="/assets/images/side_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
+		<img src="{{ site.baseurl }}/assets/images/side_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
 			width: 30%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>

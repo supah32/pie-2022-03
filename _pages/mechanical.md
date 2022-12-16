@@ -7,7 +7,7 @@ sidebar:
 
 The Zoomba includes custom made parts made in Olin College of Engineering’s own shop. Some of the parts were laser cut out with acrylic and MDF board, and other parts were 3D printed using PLA filament. The rest of the parts were already made, bought, or manipulated to fit our needs.
 
-<img src="/assets/images/full_cad_assembly.png" alt="CAD assembly of the entire chassis and all components" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/full_cad_assembly.png" alt="CAD assembly of the entire chassis and all components" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 50%;"
@@ -31,7 +31,7 @@ The chassis includes mounting holes for each of the components necessary on the 
 ### Mecanum Wheels
 As opposed to omnidirectional wheels (which need 5 driving wheels), mecanum wheels only need 4 driving wheels in order to manuever in all directions.
 
-<img src="/assets/images/mecanum_wheels.jpg" alt="Diagram of how mecanum wheels work" style="display: block;
+<img src="{{ site.baseurl }}/assets/images/mecanum_wheels.jpg" alt="Diagram of how mecanum wheels work" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 40%;"

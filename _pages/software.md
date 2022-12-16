@@ -190,7 +190,7 @@ Using the two populated dictionaries, if there is a close point in all possible 
 
 An example LiDAR scan is shown below, visualized with the <a href="https://matplotlib.org" target="_blank">matplotlib</a> library. The blue points trace out the detected obstacles. The black arrow represents the direction the robot will travel - the direction with the least amount of obstacles.
 
-<img src="/assets/images/lidar_scan.png" alt="A plot of an example LiDAR scan." style="
+<img src="{{ site.baseurl }}/assets/images/lidar_scan.png" alt="A plot of an example LiDAR scan." style="
     display: block;
     margin-right: auto;
     margin-left: auto;

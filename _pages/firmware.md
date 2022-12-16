@@ -23,7 +23,7 @@ void driveWest(){
 
 The four wheels needed to turn in specific and independent directions in order for the robot to achieve movement in certain directions. For example, to move left, the front right and back left wheels move forward while the front left and back right move backwards. Below is a diagram depicting all of this.
 
-<img src="/assets/images/wheel_directions.jpg" alt="Individual wheel directions for moving in specific directions" style="
+<img src="{{ site.baseurl }}/assets/images/wheel_directions.jpg" alt="Individual wheel directions for moving in specific directions" style="
 	display: block;
 	margin-right: auto;
 	margin-left: auto;

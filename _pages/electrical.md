@@ -7,7 +7,7 @@ sidebar:
 
 The electrical circuit consisted of an Arduino (with motor shield), a Raspberry Pi, 4 DC motors, a battery, a RPLiDAR, and a fan for the vacuum. The wiring diagram is in the image below.
 
-<img src="/assets/images/hardware_diagram.png" alt="A hardware diagram showing connections between electrical components" style="
+<img src="{{ site.baseurl }}/assets/images/hardware_diagram.png" alt="A hardware diagram showing connections between electrical components" style="
 	display: block;
 	"
 />
@@ -15,7 +15,7 @@ The electrical circuit consisted of an Arduino (with motor shield), a Raspberry 
 
 ### Raspberry Pi
 
-<img src="/assets/images/rasp_pi.png" alt="Image of the Raspberry Pi 4b" style="
+<img src="{{ site.baseurl }}/assets/images/rasp_pi.png" alt="Image of the Raspberry Pi 4b" style="
 	/*display: inline-block;*/
 	width: 30%;
 	float: right;
@@ -32,7 +32,7 @@ The electrical circuit consisted of an Arduino (with motor shield), a Raspberry 
 
 ### Arduino
 
-<img src="/assets/images/arduino_uno.png" alt="Image of the Arduino Uno" style="
+<img src="{{ site.baseurl }}/assets/images/arduino_uno.png" alt="Image of the Arduino Uno" style="
 	/*display: inline-block;*/
 	width: 30%;
 	float: right;
@@ -55,12 +55,12 @@ The robot utilized 4 DC motors, which we acquired through the '<a href="https://
 	margin-left: auto;
 	margin-right: auto;
 ">
-<img src="/assets/images/dc_motor.jpg" alt="Image of the DC motor" style="display: inline-block;
+<img src="{{ site.baseurl }}/assets/images/dc_motor.jpg" alt="Image of the DC motor" style="display: inline-block;
 	width: 25%;
 	margin-right: 10%;
 	"
 />
-<img src="/assets/images/motor_shield.jpg" alt="Image of the motor shield" style="display: inline-block;
+<img src="{{ site.baseurl }}/assets/images/motor_shield.jpg" alt="Image of the motor shield" style="display: inline-block;
 	width: 50%;
 	margin-left: 10%;
 	"
@@ -78,13 +78,13 @@ We chose to use a <a href="https://www.amazon.com/dp/B06XKNM73N?psc=1&ref=ppx_yo
 Beyond the motor shield, the Raspberry Pi was directly powered through the battery. The Raspberry Pi requires 5V, so we implemented a <a href="https://www.amazon.com/dp/B07Y2V1F8V?psc=1&ref=ppx_yo2ov_dt_b_product_details" target="_blank">buck converter</a> that allowed us to step down from the battery’s 12V to 5V.
 
 
-<img src="/assets/images/battery.png" alt="Image of the battery" style="display: inline-block;
+<img src="{{ site.baseurl }}/assets/images/battery.png" alt="Image of the battery" style="display: inline-block;
 	width: 50%;
 	margin-right: 4%;
 	margin-left: 4%;
 	"
 />
-<img src="/assets/images/buck_converter.png" alt="Image of the buck converter" style="display: inline-block;
+<img src="{{ site.baseurl }}/assets/images/buck_converter.png" alt="Image of the buck converter" style="display: inline-block;
 	width: 30%;
 	margin-right: 4%;
 	margin-left: 4%;
@@ -98,7 +98,7 @@ All other components were powered through either the Raspberry Pi or the motor s
 <br>
 
 
-<img src="/assets/images/lidar.png" alt="Image of the RPLiDAR" style="
+<img src="{{ site.baseurl }}/assets/images/lidar.png" alt="Image of the RPLiDAR" style="
 	/*display: inline-block;*/
 	width: 30%;
 	float: right;
