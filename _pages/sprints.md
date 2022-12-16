@@ -1,12 +1,9 @@
 ---
-title: "Sprints"
+title: "Sprint Timeline Breakdown"
 permalink: /sprints/
 sidebar:
   nav: docs
 ---
-
-
-# Sprint Timeline Breakdown
 
 We were given 6 weeks to iterate and complete the final design, which we divided into three 2-week sprints.
 
