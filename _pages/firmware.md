@@ -25,9 +25,6 @@ The four wheels needed to turn in specific and independent directions in order f
 
 <img src="{{ site.baseurl }}/assets/images/wheel_directions.jpg" alt="Individual wheel directions for moving in specific directions" style="
 	display: block;
-	margin-right: auto;
-	margin-left: auto;
-	width: 70%;
 	"
 />
 
