@@ -17,6 +17,8 @@ main:
   url: /budget/
 - title: "Meet the Team"
   url: /team/
+- title: "Repo"
+  url: https://github.com/ayushchakra/autonomous-robot-vacuum/
 
 docs:
   - title: Sprint Breakdown
@@ -29,7 +31,7 @@ docs:
     - title: Sprint 3
       url: /sprints/#sprint-3
   - title: Technical Challenges
-    url: /sprints/#technical-challenges
+    url: /sprints/#technical-challenges-stepper-motors
   - title: Gallery
     url: /sprints/#gallery
 
