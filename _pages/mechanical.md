@@ -20,13 +20,12 @@ All parts of the robot were assembled in Solidworks. In this assembly, some part
 
 Note that this CAD assembly does not include any wires or the Raspberry Pi casing.
 
-
 ### Chassis
 
 The chassis includes mounting holes for each of the components necessary on the Zoomba – these include electronics, electronic mountings, the vacuuming component, and the motors. There are also slots made onto the chassis to allow for better wire management between the DC motors and the motor shield on the Arduino. The main hole in the middle of the chassis is for the PVC pipe that allows items to be picked up by the vacuum and flow into the container. Hardware includes a mix between M3 screws and 4-40 bolts and nuts used for mounting components onto the chassis.
 
 
-<img src="/assets/images/chassis_render.jpg" alt="CAD rendering of the chassis design. Top View." style="display: block;
+<img src="{{ site.baseurl }}/assets/images/chassis_render.jpg" alt="CAD rendering of the chassis design. Top View." style="display: block;
 	margin-left: auto;
 	margin-right: auto;
 	width: 70%;
@@ -69,3 +68,6 @@ To keep larger items from entering and interfering with the fan blades, the vacu
 	width: 50%;"
 />
 
+### Final Vacuum Demo
+
+<iframe width="1903" height="768" src="https://www.youtube.com/embed/kCAO3tv6Fag" title="PIE Final Project Vacuum Demo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

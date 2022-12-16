@@ -52,6 +52,8 @@ design:
       url: /mechanical/#mecanum-wheels
     - title: Vacuum
       url: /mechanical/#vacuum
+    - title: Vacuum Demo
+      url: /mechanical/#final-vacuum-demo
   - title: Electrical
     url: /electrical/
     children:

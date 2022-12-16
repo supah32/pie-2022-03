@@ -130,7 +130,7 @@ The subscriber subscribes to the String object being sent by the `vel_dir` topic
 
 ### Obstacle Avoidance
 
-The Obstacle Avoidance behavior is a standalone ROS Node that commands the robot to dynamically avoid any obstacle in the robot’s environment. The full code can be found [here](https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/obstacle_avoidance.py).
+The Obstacle Avoidance behavior is a standalone ROS Node that commands the robot to dynamically avoid any obstacle in the robot’s environment. The full code can be found <a href="https://github.com/ayushchakra/autonomous-robot-vacuum/blob/main/final_demo/robot_vacuum/robot_vacuum/obstacle_avoidance.py" target="_blank">here</a>. Click this link <a href="https://youtu.be/kv9FzTqcnWU" target="_blank">here</a> to see a video demonstration.
 
 
 ### LiDAR Analysis

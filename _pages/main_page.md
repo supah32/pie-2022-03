@@ -7,7 +7,7 @@ permalink: /
 *An autonomous, omnidirectional, vacuuming robot.*
 
 
-The Zoomba is a speedy, efficiently-navigating cleaning robot. Unlike most cleaning robots, the Zoomba includes mecanum wheels to manuever through rooms and obstacles omnidirectionally. The Zoomba is able to pick up light pieces of trash from the floor and dust particles when moving around the room.
+The Zoomba is a speedy, efficiently-navigating cleaning robot. Unlike most cleaning robots, the Zoomba includes mecanum wheels to manuever through rooms and obstacles omnidirectionally. The Zoomba is able to pick up light pieces of trash from the floor and dust particles when moving around the room. Click this link <a href="https://www.youtube.com/watch?v=87Us2jFLJM0" target="_blank">here</a> to watch a demo.
 
 
 ## Final System
