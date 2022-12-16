@@ -15,8 +15,6 @@ permalink: /team/
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">LiDAR implementation</p>
 		<p style="margin-top: 0; font-size: 20px;">ROS bringup</p>
 		
-		<br>
-		
 		<div id="contact-buttons" style="text-decoration: none">
 			<a href="mailto:achakraborty@olin.edu" target="_blank" style="text-decoration: none"> <img src="{{ site.baseurl }}/assets/images/mail_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px;"> </a>
 			<a href="https://www.linkedin.com/in/ayushchakraborty/" target="_blank" style="text-decoration: none"> <img src="{{ site.baseurl }}/assets/images/linkedin_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px;"> </a>
@@ -72,7 +70,6 @@ permalink: /team/
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Chassis design and mounting</p>
 		<p style="margin-top: 0; margin-bottom: 0; font-size: 20px;">Vacuum design and mounting</p>
 		<p style="margin-top: 0; font-size: 20px;">Wheel design and mounting</p>
-		<br>
 		
 		<div id="contact-buttons" style="text-decoration: none">
 			<a href="mailto:jfryling@olin.edu" target="_blank" style="text-decoration: none"> <img src="{{ site.baseurl }}/assets/images/mail_icon.png" alt="HTML tutorial" style="display: inline-block; width:42px; height:42px"> </a>

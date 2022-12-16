@@ -19,15 +19,12 @@ We were given 6 weeks to iterate and complete the final design, which we divided
 <img src="{{ site.baseurl }}/assets/images/sprint_1_car.jpg" alt="Image of assembled MVP car" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;"
+	width: 70%;"
 />
 
 During this time, we also ideated on the integration of components. This was more crucial to the development of the vacuum mechanism and how it would integrate with other important pieces like the LiDAR.
 
-<img src="{{ site.baseurl }}/assets/images/chassis_diagram.png" alt="Hand-drawn diagram of the final chassis plan" style="display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 50%;"
+<img src="{{ site.baseurl }}/assets/images/chassis_diagram.png" alt="Hand-drawn diagram of the final chassis plan" style="display: block;"
 />
 
 
@@ -46,7 +43,7 @@ During this time, we also ideated on the integration of components. This was mor
 <img src="{{ site.baseurl }}/assets/images/sprint_2_car.png" alt="Image of the assembled robot for the sprint 2 demo" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 40%;"
+	width: 70%;"
 />
 
 During the preparation for this sprint, we encountered many problems involving the wheels and the motors. The stepper motors we used produced enough heat to melt the 3D printed couplers needed to attach the motors to the mecanum wheels. Due to this inconvenience, the set up for the LiDAR was completed separately and dismounted from the chassis.
@@ -70,16 +67,12 @@ We would also like to note, this is where we forgot about the orientation of the
 <img src="{{ site.baseurl }}/assets/images/fan.png" alt="Image of the fan used to vacuum" style="display: block;
 	margin-left: auto;
 	margin-right: auto;
-	width: 35%;"
+	width: 60%;"
 />
 
 At this point, we built the vacuuming mechanism with a fan that did not have powerful enough airflow to uptake some items. With simple testing, however, we found the mechanism to work and would work more efficiently with a more powerful fan attached. 
 
-<img src="{{ site.baseurl }}/assets/images/final_chassis.jpg" alt="Ayush and a hastily-assembled version of the final vehicle design" style="display: block;
-	margin-left: auto;
-	margin-right: auto;
-	width: 40%;"
-/>
+<img src="{{ site.baseurl }}/assets/images/final_chassis.jpg" alt="Ayush and a hastily-assembled version of the final vehicle design" style="display: block;"/>
 
 
 ## Technical Challenges (Stepper Motors)
@@ -100,29 +93,33 @@ By this time, it was too late to purchase new controllers, so we decided to cut 
 <div>
 	<div>
 		<img src="{{ site.baseurl }}/assets/images/iso_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
-			width: 30%;"
+			width: 45%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
 		<img src="{{ site.baseurl }}/assets/images/iso_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
-			width: 30%;"
-		/>
-		<div style="display: inline-block; width: 3%"></div>
-		<img src="{{ site.baseurl }}/assets/images/front_view.png" alt="Isometric view of the robot" style="display: inline-block;
-			width: 30%;"
+			width: 45%;"
 		/>
 	</div>
 
 	<div style="height: 5%"></div>
 
 	<div>
-		<img src="{{ site.baseurl }}/assets/images/side_view_1.png" alt="Isometric view of the robot" style="display: inline-block;
-			width: 30%;"
+		<img src="{{ site.baseurl }}/assets/images/front_view.png" alt="Front view of the robot" style="display: inline-block;
+			width: 45%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
+		<img src="{{ site.baseurl }}/assets/images/side_view_1.png" alt="Side view of the robot" style="display: inline-block;
+			width: 45%;"
+		/>
+	</div>
+
+	<div style="height: 5%"></div>
+
+	<div>
 		<img src="{{ site.baseurl }}/assets/images/side_view_2.png" alt="Isometric view of the robot" style="display: inline-block;
-			width: 30%;"
+			width: 45%;"
 		/>
 		<div style="display: inline-block; width: 3%"></div>
-		<div style="display: inline-block; width: 30%"></div>
+		<div style="display: inline-block; width: 45%"></div>
 	</div>
 </div>
